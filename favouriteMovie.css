@@ -1,0 +1,56 @@
+body{
+    background-image: url('https://media.istockphoto.com/id/869302970/photo/striped-box-with-popcorn-and-word-movie.jpg?s=2048x2048&w=is&k=20&c=wEGur-VuiX83g7RLX_5i8au-tDCFOXwg8LG-qx0EstQ=');
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* .................heading and   navigation section  styles............. */
+
+h1{
+    font-family: 'Crimson Pro', serif;
+    color:white;
+    margin:0px auto;
+    width:400px;
+    margin-bottom:1rem;
+}
+.favourite-list{
+    height:80px;
+    border:2px solid black;
+    background-color: black;
+    position:fixed; 
+     z-index:1;
+     width:100%;
+
+}
+.custom-button-style{
+    position: relative;
+    right: 2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* ..............main section styles....................... */
+
+.card {
+    cursor: pointer;
+    width:25%;
+    height:80%;
+    display:inline-block;
+    margin-right:4.2rem!important;
+    margin-top:2rem !important;
+}
+.card img{
+    height:400px;
+}
+
+
+#flex-element{
+    position:relative;
+    z-index:-1;
+    top:4rem;
+}
+
+
+
+

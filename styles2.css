@@ -1,0 +1,46 @@
+
+body{
+    background-image: url('https://media.istockphoto.com/id/1500906301/photo/macro-shot-of-hot-orange-dust-particles-float.jpg?s=2048x2048&w=is&k=20&c=WFHBgawbqdGTUCRLXAFqU6gFCOrijNwRduKgoahCfRU=');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ..............heading section  styles................ */
+h1{
+    width:400px;
+    color:white;
+}
+
+
+
+/* ..............main section  styles............... */
+
+#main-parent{
+    background-color: white;
+   /* height:300px !important; */
+    width: 50%;
+    margin: 0rem auto;
+    box-shadow: aqua;
+    box-shadow: 2px 3px;
+    border-radius: 4px;
+    height:0px;
+}
+
+.myBtn{
+    position: relative;
+    left: 104rem;
+   
+}
+.card{
+    max-height:50%  !important;
+}
+.card img{
+    /* height:350px; */
+    height:290px;
+   
+}
+.plot{
+    overflow-y: scroll;
+    height:200px;
+}
